@@ -1,8 +1,9 @@
-*{
+body{
     padding:0;
     margin:0;
     box-sizing: border-box;
-    background-color: lightgray;
+    background-color: lightgrey;
+  
 }
 
 #header{
@@ -10,7 +11,6 @@
    
     align-items: center;
     padding:15px;
-    position: fixed;
 }
 #header nav{
     display: flex;
@@ -26,4 +26,23 @@
 #header-img{
  width: 30%;
  justify-content: flex-start;
+}
+
+#micro{
+    color: maroon;
+    text-align: center;
+}
+
+button{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 2px;
+}
+#iconic{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+#p{
+    display: inline;
 }
